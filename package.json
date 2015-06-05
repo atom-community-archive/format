@@ -10,7 +10,7 @@
     "beauty",
     "beautify"
   ],
-  "repository": "https://github.com/nkt/atom-format",
+  "repository": "https://github.com/atom-format/format",
   "license": "MIT",
   "engines": {
     "atom": ">=0.174.0 <2.0.0"
