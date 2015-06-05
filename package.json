@@ -1,0 +1,31 @@
+{
+  "name": "format",
+  "main": "./src/main.js",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+    "format",
+    "formatter",
+    "reformat",
+    "beauty",
+    "beautify"
+  ],
+  "repository": "https://github.com/nkt/atom-format",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-eslint": "^3.1.11",
+    "eslint": "^0.22.1"
+  },
+  "consumedServices": {
+    "formatter": {
+      "description": "A custom formatter",
+      "versions": {
+        "1.0.0": "provideFormatter"
+      }
+    }
+  }
+}

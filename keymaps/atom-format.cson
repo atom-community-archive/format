@@ -1,0 +1,7 @@
+'.platform-darwin':
+  'atom-text-editor':
+    'alt-cmd-l': 'format:run'
+
+'.platform-win32, .platform-linux':
+  'atom-text-editor':
+    'alt-ctrl-l': 'format:run'
